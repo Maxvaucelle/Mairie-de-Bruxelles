@@ -1,5 +1,5 @@
 h1 {
-  color: darkgoldenrod;
+  color: rgb(0, 0, 0);
 }
 
 body {
@@ -18,8 +18,9 @@ header {
   background-repeat: no-repeat;
 }
 
-h1 {
-  color: rgb(236, 97, 22);
+.hd {
+display: flex;
+
 }
 
 

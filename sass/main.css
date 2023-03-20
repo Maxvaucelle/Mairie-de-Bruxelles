@@ -1,5 +1,12 @@
+@import url(Layout/_header.scss);
+@import url(Layout/_footer.scss);
+@import url(Layout/_form.scss);
 h1 {
   color: darkgoldenrod;
+}
+
+.basPage {
+  background-color: #4B6587;
 }
 
 body {
@@ -8,12 +15,25 @@ body {
   background-color: aquamarine;
 }
 
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+body {
+  margin: auto;
+  padding: 0%;
+}
+
 body {
   margin: auto;
 }
 
 header {
   background-image: url(/images/accueil/image2.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.hd {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */
