@@ -1,1 +1,19 @@
-/*# sourceMappingURL=main.css.map */
+h1 {
+  color: darkgoldenrod;
+}
+
+body {
+  margin: auto;
+  padding: 0%;
+  background-color: aquamarine;
+}
+
+body {
+  margin: auto;
+}
+
+header {
+  background-image: url(/images/accueil/image2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=main.css.map */
