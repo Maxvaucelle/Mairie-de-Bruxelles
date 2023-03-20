@@ -36,4 +36,5 @@ header {
 
 .hd {
   display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */
