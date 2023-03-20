@@ -1,3 +1,6 @@
+@import url(Layout/_header.scss);
+@import url(Layout/_footer.scss);
+@import url(Layout/_form.scss);
 h1 {
   color: darkgoldenrod;
 }
@@ -5,7 +8,15 @@ h1 {
 body {
   margin: auto;
   padding: 0%;
-  background-color: aquamarine;
+}
+
+h1 {
+  color: darkgoldenrod;
+}
+
+body {
+  margin: auto;
+  padding: 0%;
 }
 
 body {
@@ -14,6 +25,10 @@ body {
 
 header {
   background-image: url(/images/accueil/image2.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
+}
+
+h1 {
+  color: rgb(236, 97, 22);
 }/*# sourceMappingURL=main.css.map */
