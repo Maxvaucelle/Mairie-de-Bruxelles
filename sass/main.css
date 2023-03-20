@@ -1,18 +1,1 @@
-@import url(Utils/_variable.scss);
-@import url(Utils/_mixins.scss);
-@import url(Utils/_fonction.scss);
-@import url(Accueil/_accueilEvent.scss);
-@import url(Accueil/_accueilNews.scss);
-@import url(Accueil/_accueilPresentation.scss);
-@import url(Base/_base.scss);
-@import url(Base/_font.scss);
-@import url(Composants/_boutons.scss);
-@import url(Contact/_contactPresentation.scss);
-@import url(Evenement/_eventPresentation.scss);
-@import url(Evenement/_eventMain.scss);
-@import url(Layout/_footer.scss);
-@import url(Layout/_form.scss);
-@import url(Layout/_header.scss);
-@import url(Pages/_accueil.scss);
-@import url(Pages/_contact.scss);
-@import url(Pages/_evenement.scss);/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
