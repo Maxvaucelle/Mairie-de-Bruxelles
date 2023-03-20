@@ -1,26 +1,17 @@
-//import utils
-@import url(Utils/_variable.scss);
-@import url(Utils/_mixins.scss);
-@import url(Utils/_fonction.scss);
+@import "./Utils/fonction";
+@import "./Utils/mixins";
+@import "./Utils/variable";
 
-//import accueil css
-@import url(Accueil/_accueilEvent.scss);
-@import url(Accueil/_accueilNews.scss);
-@import url(Accueil/_accueilPresentation.scss);
 
-//import bases
-@import url(Base/_base.scss);
-@import url(Base/_font.scss);
+@import "./Accueil/accueilEvent";
+@import "./Accueil/accueilNews";
+@import "./Accueil/accueilPresentation";
 
-//import composants
-@import url(Composants/_boutons.scss);
 
-//import contact css
-@import url(Contact/_contactPresentation.scss);
+@import "./Base/base";
+@import "./Base/font";
 
-//import evenement css
-@import url(Evenement/_eventPresentation.scss);
-@import url(Evenement/_eventMain.scss);
+@import "./Composants/boutons";
 
 //import layout
 @import url(Layout/_header.scss);
@@ -28,8 +19,14 @@
 @import url(Layout/_form.scss);
 
 
-//import pages
-@import url(Pages/_accueil.scss);
-@import url(Pages/_contact.scss);
-@import url(Pages/_evenement.scss);
+@import "./Evenement/eventMain";
+@import "./Evenement/eventPresentation";
+
+@import "./Layout/footer";
+@import "./Layout/form";
+@import "./Layout/header";
+
+@import "./Pages/accueil";
+@import "./Pages/contact";
+@import "./Pages/evenement";
 
