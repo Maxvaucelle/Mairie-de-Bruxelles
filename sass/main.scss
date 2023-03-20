@@ -13,7 +13,11 @@
 
 @import "./Composants/boutons";
 
-@import "./Contact/contactPresentation";
+//import layout
+@import url(Layout/_header.scss);
+@import url(Layout/_footer.scss);
+@import url(Layout/_form.scss);
+
 
 @import "./Evenement/eventMain";
 @import "./Evenement/eventPresentation";

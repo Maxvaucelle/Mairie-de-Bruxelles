@@ -1,10 +1,39 @@
-  body{
-    margin: auto;
-  }
+h1 {
+  color: rgb(0, 0, 0);
+}
 
-  header{
-    background-image: url(/images/accueil/image2.png) ;
+body {
+  margin: auto;
+  padding: 0%;
 
-    background-size:cover;
-    background-repeat:no-repeat;
-  }
+}
+
+body {
+  margin: auto;
+}
+
+header {
+  background-image: url(/images/accueil/image2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.hd {
+display: flex;
+flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
