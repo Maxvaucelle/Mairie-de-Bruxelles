@@ -1,21 +1,24 @@
-
-.CorpsDePage{
-    .Event{
-        background-color: $backgroundSection;
-        width: 90%;
-    
-        margin-left: 5%;
-
-    }
+.CorpsDePage {
     background-color: $backgroundMain;
     width: 100%;
     padding-bottom: 5%;
-   
+
+    .Event {
+        background-color: $backgroundSection;
+        width: 90%;
+        margin-left: 5%;
+
+        .DateEvent {
+
+            h1 {
+                color: darkgoldenrod;
+            }
+        }
+    }
 }
 
-.DateEvent{
-    
-h1{
-    color: darkgoldenrod;
-}
+
+#NouvelleTechnologie {
+    width: 50%;
+    margin-left: 5%;
 }
