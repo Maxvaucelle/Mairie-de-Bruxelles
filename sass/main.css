@@ -27,12 +27,11 @@ h1 {
 .basPage {
   background-color: #4B6587;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
 }
 
 .basPageTexte {
-  align-items: center;
+  padding: 20px;
 }
 
 .logoFooter {
