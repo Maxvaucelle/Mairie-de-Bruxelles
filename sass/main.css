@@ -1,20 +1,10 @@
+
+
+
+
 @import url(Layout/_header.scss);
 @import url(Layout/_footer.scss);
 @import url(Layout/_form.scss);
-h1 {
-  color: darkgoldenrod;
-}
-
-.basPage {
-  background-color: #4B6587;
-}
-
-body {
-  margin: auto;
-  padding: 0%;
-
-}
-
 h1 {
   color: rgb(0, 0, 0);
 }
@@ -22,6 +12,7 @@ h1 {
 body {
   margin: auto;
   padding: 0%;
+
 }
 
 body {
@@ -35,6 +26,10 @@ header {
 }
 
 .hd {
-  display: flex;
-  flex-direction: column;
-}/*# sourceMappingURL=main.css.map */
+display: flex;
+flex-direction: column;
+}
+
+.logo{
+  width: 30px;
+}
