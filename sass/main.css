@@ -1,6 +1,13 @@
 .CorpsDePage {
   background-color: #333333;
   width: 100%;
+  padding-bottom: 5%;
+}
+.CorpsDePage .Event {
+  background-color: #494747;
+  width: 90%;
+  padding-top: 2%;
+  margin-left: 5%;
 }
 
 .DateEvent h1 {
