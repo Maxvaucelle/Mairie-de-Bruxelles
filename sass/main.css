@@ -25,29 +25,29 @@
   gap: 10px;
 }
 
-#facebook {
+.logoContact #facebook {
   color: blue;
-  width: "30px";
+  width: 50px;
 }
 
-#twitter {
-  size: "30px";
+.logoContact #twitter {
+  width: 50px;
 }
 
-#instagram {
-  size: "30px";
+.logoContact #instagram {
+  width: 50px;
 }
 
-#tiktok {
-  size: "30px";
+.logoContact #tiktok {
+  width: 50px;
 }
 
-#youtube {
-  size: "30px";
+.logoContact #youtube {
+  width: 50px;
 }
 
-#spotify {
-  size: "30px";
+.logoContact #spotify {
+  width: 50px;
 }
 
 .basPage {
@@ -66,15 +66,15 @@
 }
 
 #animaux {
-  width: "57px";
+  width: 57px;
 }
 
 #unesco {
-  width: "150px";
+  width: 150px;
 }
 
 #vbx {
-  width: "150px";
+  width: 150px;
 }
 
 .header h1 {
