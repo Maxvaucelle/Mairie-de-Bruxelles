@@ -1,6 +1,12 @@
 .CorpsDePage {
   background-color: #333333;
   width: 100%;
+  padding-bottom: 5%;
+}
+.CorpsDePage .Event {
+  background-color: #494747;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .DateEvent h1 {
@@ -79,21 +85,36 @@
 
 .header h1 {
   color: rgb(255, 255, 255);
+  align-items: center;
 }
 
 header {
   background-image: url(/images/accueil/image2.png);
-  background-size: 100%;
+  background-size: 110%;
   background-repeat: no-repeat;
 }
-header .logo {
-  width: 20px;
+header .logo img {
+  width: 200px;
 }
-
-.header {
+header .contenuhd {
   display: flex;
   flex-direction: column;
-  justify-content: right;
+  align-items: flex-end;
+  background-color: rgba(0, 0, 0, 0.367);
+  margin-left: 70%;
+}
+
+.elementhd {
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
 }
 
 body {
