@@ -1,18 +1,22 @@
-h1 {
-    color: rgb(0, 0, 0);
+.header h1 {
+    color: rgb(238, 32, 32);
   }
 
   header {
     background-image: url(/images/accueil/image2.png);
     background-size: 100%;
     background-repeat: no-repeat;
+
+    .logo{
+      width: 5%;
+    }
+  
   }
   
-  .hd {
+  .header {
   display: flex;
   flex-direction: column;
+  justify-content: right;
   }
   
-  .logo{
-    width: 30px;
-  }
+ 

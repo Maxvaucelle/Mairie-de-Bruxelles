@@ -1,4 +1,9 @@
-h1 {
+.CorpsDePage {
+  background-color: #333333;
+  width: 100%;
+}
+
+.DateEvent h1 {
   color: darkgoldenrod;
 }
 
@@ -39,8 +44,8 @@ h1 {
   flex-direction: column;
 }
 
-h1 {
-  color: rgb(0, 0, 0);
+.header h1 {
+  color: rgb(238, 32, 32);
 }
 
 header {
@@ -48,14 +53,14 @@ header {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
-.hd {
-  display: flex;
-  flex-direction: column;
+header .logo {
+  width: 5%;
 }
 
-.logo {
-  width: 30px;
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
 }
 
 body {
