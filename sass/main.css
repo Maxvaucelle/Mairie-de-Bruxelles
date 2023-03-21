@@ -84,17 +84,15 @@
 }
 
 .header h1 {
-  color: rgb(255, 255, 255);
+  color: white;
   align-items: center;
+  font-family: "Lora", serif;
 }
 
 header {
   background-image: url(/images/accueil/image2.png);
   background-size: 110%;
   background-repeat: no-repeat;
-}
-header .logo img {
-  width: 200px;
 }
 header .contenuhd {
   display: flex;
@@ -103,18 +101,35 @@ header .contenuhd {
   background-color: rgba(0, 0, 0, 0.367);
   margin-left: 70%;
 }
+header h2 {
+  font-family: "Jost", sans-serif;
+}
 
 .elementhd {
-  margin-right: 20px;
+  padding-right: 60px;
+  padding-bottom: 80px;
 }
 
-nav ul {
+.nav ul {
   list-style: none;
+  font-size: 25px;
+}
+.nav ul a {
+  text-decoration: none;
+  color: white;
+  font-family: "Jost", sans-serif;
 }
 
-.nav {
+ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+  margin-right: 60px;
+}
+
+.logo img {
+  width: 200px;
 }
 
 body {
