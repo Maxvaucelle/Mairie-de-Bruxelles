@@ -1,6 +1,16 @@
-// .saif{
-//     margin:auto;
-//     padding:0%;
-//     background-color: bisque;
+.formulaire{
 
-// }
+border: 2px black solid;
+margin-left: 10%;
+margin-right: 10%;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: $backgroundFooter ;
+}
+
+.formulaire h2{
+    margin-left: 35%;
+    color:$couleurTexte;
+    font-family: $policeTitre;
+    text-transform: uppercase;
+}
