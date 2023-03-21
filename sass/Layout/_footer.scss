@@ -1,0 +1,45 @@
+.footerContact{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    width: 100%;
+}
+
+.footerTexteContact{
+    flex-direction: row;
+    align-items: left;
+    flex-wrap: nowrap;
+    
+}
+
+// .footerTexteContact h2{
+
+
+// }
+
+.logoContact{
+    display: flex;
+   gap: 10px;
+}
+
+#facebook{
+    color: blue;
+}
+
+.basPage{
+    background-color: $backgroundFooter;
+    display:flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.basPageTexte{
+  align-items: center;
+}
+
+.logoFooter{
+    display:flex;
+    flex-direction: column;
+   
+}
