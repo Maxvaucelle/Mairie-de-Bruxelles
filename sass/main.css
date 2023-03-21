@@ -6,11 +6,27 @@
 .CorpsDePage .Event {
   background-color: #494747;
   width: 90%;
-  margin-left: 5%;
+  margin-left: 4%;
+  padding-left: 4%;
+  margin-right: 7%;
 }
-
-.DateEvent h1 {
-  color: darkgoldenrod;
+.CorpsDePage .Event .DateEvent h1 {
+  display: flex;
+  justify-content: center;
+  color: #DABB70;
+  font-family: "Lora", serif;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+.CorpsDePage .Event .TexteADroite {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.CorpsDePage #NouvelleTechnologie {
+  width: 50%;
+  margin-left: 1%;
 }
 
 .footerContact {
@@ -32,7 +48,6 @@
 }
 
 .logoContact #facebook {
-  color: blue;
   width: 50px;
 }
 
@@ -60,10 +75,15 @@
   background-color: #4B6587;
   display: flex;
   justify-content: center;
+  padding: 2%;
 }
 
 .basPageTexte {
-  padding: 20px;
+  padding-right: 50px;
+}
+
+.lienFooter a {
+  justify-content: space-between;
 }
 
 .logoFooter {
