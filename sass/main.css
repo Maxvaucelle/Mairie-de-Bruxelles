@@ -78,7 +78,7 @@
 }
 
 .header h1 {
-  color: rgb(238, 32, 32);
+  color: rgb(255, 255, 255);
 }
 
 header {
@@ -87,7 +87,7 @@ header {
   background-repeat: no-repeat;
 }
 header .logo {
-  width: 5%;
+  width: 20px;
 }
 
 .header {
