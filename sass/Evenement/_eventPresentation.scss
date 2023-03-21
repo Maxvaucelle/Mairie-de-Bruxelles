@@ -6,19 +6,22 @@
     .Event {
         background-color: $backgroundSection;
         width: 90%;
-        margin-left: 5%;
+        margin-left: 4%;
+        padding-left: 4%;
+        margin-right: 0%;
 
         .DateEvent {
 
             h1 {
-                color: darkgoldenrod;
+                color: $couleurTitreMain;
+                font-family: $policeTitre;
+                letter-spacing: 3px;
             }
         }
     }
-}
 
-
-#NouvelleTechnologie {
-    width: 50%;
-    margin-left: 5%;
+    #NouvelleTechnologie {
+        width: 50%;
+        margin-left: 1%;
+    }
 }
