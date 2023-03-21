@@ -1,0 +1,138 @@
+.CorpsDePage {
+  background-color: #333333;
+  width: 100%;
+  padding-bottom: 5%;
+}
+.CorpsDePage .Event {
+  background-color: #494747;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.DateEvent h1 {
+  color: darkgoldenrod;
+}
+
+.footerContact {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  width: 100%;
+}
+
+.footerTexteContact {
+  flex-direction: row;
+  align-items: left;
+  flex-wrap: nowrap;
+}
+
+.logoContact {
+  display: flex;
+  gap: 10px;
+}
+
+.logoContact #facebook {
+  color: blue;
+  width: 50px;
+}
+
+.logoContact #twitter {
+  width: 50px;
+}
+
+.logoContact #instagram {
+  width: 50px;
+}
+
+.logoContact #tiktok {
+  width: 50px;
+}
+
+.logoContact #youtube {
+  width: 50px;
+}
+
+.logoContact #spotify {
+  width: 50px;
+}
+
+.basPage {
+  background-color: #4B6587;
+  display: flex;
+  justify-content: center;
+}
+
+.basPageTexte {
+  padding: 20px;
+}
+
+.logoFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+#animaux {
+  width: 57px;
+}
+
+#unesco {
+  width: 150px;
+}
+
+#vbx {
+  width: 150px;
+}
+
+.header h1 {
+  color: white;
+  align-items: center;
+  font-family: "Lora", serif;
+}
+
+header {
+  background-image: url(/images/accueil/image2.png);
+  background-size: 110%;
+  background-repeat: no-repeat;
+}
+header .contenuhd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: rgba(0, 0, 0, 0.367);
+  margin-left: 70%;
+}
+header h2 {
+  font-family: "Jost", sans-serif;
+}
+
+.elementhd {
+  padding-right: 60px;
+  padding-bottom: 80px;
+}
+
+.nav ul {
+  list-style: none;
+  font-size: 25px;
+}
+.nav ul a {
+  text-decoration: none;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 25px;
+  margin-right: 60px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+body {
+  margin: 0;
+  padding: 0%;
+}/*# sourceMappingURL=main.css.map */

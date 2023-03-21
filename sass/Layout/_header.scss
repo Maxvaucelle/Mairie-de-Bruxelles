@@ -1,6 +1,9 @@
 .header h1 {
-    color: rgb(255, 255, 255);
+    color:$couleurTitreHeader;
     align-items: center;
+    font-family: $policeTitre;
+
+   
   }
 
   header {
@@ -9,11 +12,7 @@
   
     background-repeat: no-repeat;
 
-    .logo img{
-      width: 200px;
- 
-    }
-
+   
     .contenuhd {
       display: flex;
       flex-direction: column;
@@ -21,23 +20,42 @@
       background-color: rgba(0, 0, 0, 0.367);
       margin-left: 70%;
       }
+
+      h2{
+        font-family: $policeTexte ;
+      }
   
   }
 
   .elementhd {
-    margin-right: 20px;
+  
+    padding-right: 60px;
+    padding-bottom: 80px;
   }
   
-  nav ul {
+  .nav ul {
 list-style: none;
+font-size: 25px;
 
+a{
+text-decoration: none;
+color: white;
+font-family: $policeTexte;
+}
 
   }
 
-  .nav {
-    display: flex;
-    flex-direction: row;
+ul{
 
-    }
+  display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 25px;
+    margin-right: 60px;
   
- 
+}
+
+.logo img{
+  width: 200px;
+
+}
