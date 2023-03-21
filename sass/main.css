@@ -1,3 +1,26 @@
+.saif {
+  margin: auto;
+  padding: 0%;
+  background-color: #333333;
+}
+
+.container h1 {
+  padding-left: 50%;
+  color: white;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+}
+
+.container p {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-align: start;
+  line-height: 30px;
+}
+
 .CorpsDePage {
   background-color: #333333;
   width: 100%;
@@ -18,11 +41,14 @@
   letter-spacing: 3px;
   font-size: 40px;
 }
-.CorpsDePage .Event .TexteADroite {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  flex-direction: column;
+.CorpsDePage .TexteADroite {
+  color: white;
+}
+.CorpsDePage p {
+  color: white;
+}
+.CorpsDePage .VideoEvent {
+  width: 60%;
 }
 .CorpsDePage #NouvelleTechnologie {
   width: 50%;
@@ -101,6 +127,22 @@
 
 #vbx {
   width: 150px;
+}
+
+.formulaire {
+  border: 2px black solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #4B6587;
+}
+
+.formulaire h2 {
+  margin-left: 35%;
+  color: white;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
 }
 
 .header h1 {
