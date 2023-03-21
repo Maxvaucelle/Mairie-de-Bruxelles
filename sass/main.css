@@ -1,3 +1,26 @@
+.saif {
+  margin: auto;
+  padding: 0%;
+  background-color: #333333;
+}
+
+.container h1 {
+  padding-left: 50%;
+  color: white;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+}
+
+.container p {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-align: start;
+  line-height: 30px;
+}
+
 .CorpsDePage {
   background-color: #333333;
   width: 100%;
@@ -6,11 +29,27 @@
 .CorpsDePage .Event {
   background-color: #494747;
   width: 90%;
-  margin-left: 5%;
+  margin-left: 4%;
+  padding-left: 4%;
+  margin-right: 7%;
 }
-
-.DateEvent h1 {
-  color: darkgoldenrod;
+.CorpsDePage .Event .DateEvent h1 {
+  display: flex;
+  justify-content: center;
+  color: #DABB70;
+  font-family: "Lora", serif;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+.CorpsDePage .Event .TexteADroite {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.CorpsDePage #NouvelleTechnologie {
+  width: 50%;
+  margin-left: 1%;
 }
 
 .footerContact {
@@ -32,7 +71,6 @@
 }
 
 .logoContact #facebook {
-  color: blue;
   width: 50px;
 }
 
@@ -60,10 +98,15 @@
   background-color: #4B6587;
   display: flex;
   justify-content: center;
+  padding: 2%;
 }
 
 .basPageTexte {
-  padding: 20px;
+  padding-right: 50px;
+}
+
+.lienFooter a {
+  justify-content: space-between;
 }
 
 .logoFooter {
@@ -81,6 +124,22 @@
 
 #vbx {
   width: 150px;
+}
+
+.formulaire {
+  border: 1px black solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #4B6587;
+}
+
+.formulaire h2 {
+  margin-left: 35%;
+  color: white;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
 }
 
 .header h1 {
