@@ -12,7 +12,8 @@
 
         .DateEvent {
 
-            h1 {display: flex;
+            h1 {
+                display: flex;
                 justify-content: center;
                 color: $couleurTitreMain;
                 font-family: $policeTitre;
@@ -20,15 +21,17 @@
                 font-size: $tailleTitreEvenement;
             }
         }
-
-        .BlocImgTxt .TexteADroite{ 
-            display: flex;
-            align-items: flex-end;
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
     }
+    .TexteADroite{
+        color: white;
+    }
+p {
+    color: white;
+}
 
+.VideoEvent{
+    width: 60%;
+}
     #NouvelleTechnologie {
         width: 50%;
         margin-left: 1%;
