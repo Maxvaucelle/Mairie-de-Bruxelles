@@ -3,13 +3,10 @@ h1 {
 }
 
 body {
-  margin: auto;
+  margin: 0;
   padding: 0%;
 }
 
-body {
-  margin: auto;
-}
 
 header {
   background-image: url(/images/accueil/image2.png);
@@ -64,11 +61,6 @@ header {
   flex-direction: column;
 }
 
-body {
-  margin: auto;
-  padding: 0%;
-  background-color: aquamarine;
-}
 
 h1 {
   color: darkgoldenrod;
@@ -112,23 +104,9 @@ h1 {
   flex-direction: column;
 }
 
-body {
-  margin: auto;
-  padding: 0%;
-  background-color: aquamarine;
-}
 
 h1 {
   color: rgb(0, 0, 0);
-}
-
-body {
-  margin: auto;
-  padding: 0%;
-}
-
-body {
-  margin: auto;
 }
 
 header {
