@@ -32,12 +32,11 @@
 .basPage {
   background-color: #4B6587;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
 }
 
 .basPageTexte {
-  align-items: center;
+  padding: 20px;
 }
 
 .logoFooter {
@@ -46,7 +45,7 @@
 }
 
 .header h1 {
-  color: rgb(238, 32, 32);
+  color: rgb(255, 255, 255);
 }
 
 header {
@@ -55,7 +54,7 @@ header {
   background-repeat: no-repeat;
 }
 header .logo {
-  width: 5%;
+  width: 20px;
 }
 
 .header {

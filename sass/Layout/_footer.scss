@@ -29,13 +29,13 @@
 .basPage{
     background-color: $backgroundFooter;
     display:flex;
+    justify-content: center;
     
-    justify-content: space-around;
-    align-items: center;
+  
 }
 
 .basPageTexte{
-  align-items: center;
+  padding: 20px;
 }
 
 .logoFooter{
