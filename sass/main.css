@@ -41,11 +41,14 @@
   letter-spacing: 3px;
   font-size: 40px;
 }
-.CorpsDePage .Event .TexteADroite {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  flex-direction: column;
+.CorpsDePage .TexteADroite {
+  color: white;
+}
+.CorpsDePage p {
+  color: white;
+}
+.CorpsDePage .VideoEvent {
+  width: 30%;
 }
 .CorpsDePage #NouvelleTechnologie {
   width: 50%;
@@ -105,8 +108,8 @@
   padding-right: 50px;
 }
 
-.lienFooter a {
-  justify-content: space-between;
+.lienFooter {
+  padding-top: 10%;
 }
 
 .logoFooter {
