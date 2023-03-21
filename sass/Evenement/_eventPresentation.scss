@@ -1,7 +1,17 @@
 
 .CorpsDePage{
+    .Event{
+        background-color: $backgroundSection;
+        width: 90%;
+        padding-top: 2%;
+        margin-left: 5%;
+
+    }
     background-color: $backgroundMain;
     width: 100%;
+    padding-bottom: 5%;
+   
+
 }
 
 .DateEvent{
