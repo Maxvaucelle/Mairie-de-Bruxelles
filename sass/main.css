@@ -4,6 +4,7 @@ h1 {
 
 body {
   margin: 0;
+  padding: 0%;
 }
 
 header {
@@ -59,11 +60,6 @@ header {
   flex-direction: column;
 }
 
-body {
-  margin: auto;
-  padding: 0%;
-  background-color: aquamarine;
-}
 
 h1 {
   color: darkgoldenrod;
@@ -106,32 +102,3 @@ h1 {
   display: flex;
   flex-direction: column;
 }
-
-body {
-  margin: auto;
-  padding: 0%;
-  background-color: aquamarine;
-}
-
-h1 {
-  color: rgb(0, 0, 0);
-}
-
-body {
-  margin: 0;
-}
-
-header {
-  background-image: url(/images/accueil/image2.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
-
-.hd {
-  display: flex;
-  flex-direction: column;
-}
-
-.logo {
-  width: 30px;
-}/*# sourceMappingURL=main.css.map */
