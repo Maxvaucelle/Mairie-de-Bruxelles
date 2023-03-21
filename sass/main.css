@@ -1,4 +1,9 @@
-h1 {
+.CorpsDePage {
+  background-color: #333333;
+  width: 100%;
+}
+
+.DateEvent h1 {
   color: darkgoldenrod;
 }
 
