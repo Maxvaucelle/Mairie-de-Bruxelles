@@ -14,9 +14,9 @@
 @import "./Composants/boutons";
 
 //import layout
-@import url(Layout/_header.scss);
-@import url(Layout/_footer.scss);
-@import url(Layout/_form.scss);
+@import "./Layout/header";
+@import "./Layout/footer";
+@import "./Layout/form";
 
 
 @import "./Evenement/eventMain";
