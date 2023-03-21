@@ -21,6 +21,29 @@
   line-height: 30px;
 }
 
+.saif {
+  margin: auto;
+  padding: 0%;
+  background-color: #333333;
+}
+
+.container h1 {
+  padding-left: 50%;
+  color: white;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+}
+
+.container p {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  text-align: start;
+  line-height: 30px;
+}
+
 .CorpsDePage {
   background-color: #333333;
   width: 100%;
@@ -108,8 +131,8 @@
   padding-right: 50px;
 }
 
-.lienFooter a {
-  justify-content: space-between;
+.lienFooter {
+  padding-top: 10%;
 }
 
 .logoFooter {
@@ -130,7 +153,7 @@
 }
 
 .formulaire {
-  border: 2px black solid;
+  border: 1px black solid;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 20px;
