@@ -21,10 +21,10 @@
             }
         }
 
-        .TexteADroite { 
+        .BlocImgTxt .TexteADroite{ 
             display: flex;
-            flex-wrap: wrap;
             align-items: flex-end;
+            flex-wrap: wrap;
             flex-direction: column;
         }
     }
