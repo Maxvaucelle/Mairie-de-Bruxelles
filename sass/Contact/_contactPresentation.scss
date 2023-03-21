@@ -1,0 +1,24 @@
+.saif{
+    margin:auto;
+    padding:0%;
+    background-color:$backgroundMain;
+}
+
+.container h1{
+    padding-left: 50%;
+    color:$couleurTexte;
+    font-family: $policeTitre;
+    text-transform: uppercase;
+  
+}
+
+.container p {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+    color:$couleurTexte;
+    font-family: $policeTexte; 
+    text-align:start;
+    line-height: 30px;
+    
+}   
