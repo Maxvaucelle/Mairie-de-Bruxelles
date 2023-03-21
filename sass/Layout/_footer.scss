@@ -12,18 +12,12 @@
     
 }
 
-// .footerTexteContact h2{
-
-
-// }
-
 .logoContact{
     display: flex;
    gap: 10px;
 }
 
 .logoContact #facebook{
-    color: blue;
     width:50px;}
 
 .logoContact #twitter{
@@ -46,12 +40,16 @@
     background-color: $backgroundFooter;
     display:flex;
     justify-content: center;
+    padding: 2%;
     
-  
 }
 
 .basPageTexte{
-  padding: 20px;
+  padding-right: 50px;
+}
+
+.lienFooter a{
+justify-content: space-between;
 }
 
 .logoFooter{

@@ -1,21 +1,36 @@
-
-.CorpsDePage{
-    .Event{
-        background-color: $backgroundSection;
-        width: 90%;
-    
-        margin-left: 5%;
-
-    }
+.CorpsDePage {
     background-color: $backgroundMain;
     width: 100%;
     padding-bottom: 5%;
-   
-}
 
-.DateEvent{
+    .Event {
+        background-color: $backgroundSection;
+        width: 90%;
+        margin-left: 4%;
+        padding-left: 4%;
+        margin-right: 7%;
 
-h1{
-    color: darkgoldenrod;
-}
+        .DateEvent {
+
+            h1 {display: flex;
+                justify-content: center;
+                color: $couleurTitreMain;
+                font-family: $policeTitre;
+                letter-spacing: 3px;
+                font-size: $tailleTitreEvenement;
+            }
+        }
+
+        .TexteADroite { 
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            flex-direction: column;
+        }
+    }
+
+    #NouvelleTechnologie {
+        width: 50%;
+        margin-left: 1%;
+    }
 }
