@@ -41,16 +41,21 @@
   letter-spacing: 3px;
   font-size: 40px;
 }
+.CorpsDePage .BlocImgTxt {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.CorpsDePage .BlocImgTxt .TexteADroite {
+  margin-left: 0%;
+}
 .CorpsDePage .TexteADroite {
   color: white;
 }
 .CorpsDePage p {
   color: white;
 }
-.CorpsDePage .VideoEvent {
-  width: 30%;
-}
-.CorpsDePage #NouvelleTechnologie {
+.CorpsDePage .NouvelleTechnologie img {
   width: 50%;
   margin-left: 1%;
 }
