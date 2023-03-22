@@ -19,12 +19,13 @@ html {
 
             h1 {
                 display: flex;
-                justify-content: start;
+                justify-content: center;
                 color: $couleurTitreMain;
                 font-family: $policeTitre;
                 letter-spacing: 3px;
                 font-size: $tailleTitreEvenement;
                 padding-top: 2%;
+                padding-left: 8px;
             }
         }
     }
@@ -65,7 +66,6 @@ html {
     margin-left: 9px;
     font-family: $policeTexte ;
     font-size: $tailleTexte;
-
 }
 
 .VideoEvent {
