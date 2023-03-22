@@ -1,79 +1,83 @@
 .header h1 {
-  color:$couleurTitreHeader;
+  color: $couleurTitreHeader;
   align-items: center;
   font-family: $policeTitre;
 
 }
 
 header {
-  background-image: url(/images/accueil/image2.png);
+  background-image: url(/images/accueil/cover2.jpg);
   background-size: 100%;
-  background-repeat: no-repeat; 
-height: 400px; }
-
- 
- 
-
-   .header h2{
-      font-family: $policeTexte ;
-      margin: auto;
-      color:$backgroundMain;
-     font-size: 30px;
-     margin-bottom: 10px;
-    }
-
-.elementhd{
-
-display: flex;
-flex-direction: column;
-
-padding-left: 50px;
-background-color: rgba(0, 0, 0, 0.367);
-margin-left: 70%;
-padding-bottom:40px ;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  height: 500px;
+}
 
 
 
-h1{
+
+.header h2 {
+  font-family: $policeTexte ;
+  margin: auto;
+  color: $backgroundMain;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.elementhd {
+
   display: flex;
-  justify-content: center;
-  font-size: 35px;
- 
+  flex-direction: column;
+
+  padding-left: 50px;
+  background-color: rgba(0, 0, 0, 0.474);
+  margin-left: 60%;
+  padding-bottom: 80px;
+
+
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+
+
+  }
 
 }
 
+.nav {
+
+  font-size: 25px;
+
+  a {
+    text-decoration: underline;
+    color: white;
+    font-family: $policeTexte;
+
+
+
+  }
+
 }
-.nav  {
 
-font-size: 25px;
+ul {
 
-a{
-text-decoration:underline;
-color: $backgroundMain;
-font-family: $policeTexte;
-
-
-
-}
-
-}
-
-ul{
-
-display: flex;
+  display: flex;
   flex-direction: row;
-  justify-content:space-around;
-  gap: 25px;
+  justify-content: space-evenly;
   margin-right: 60px;
   list-style: none;
 
 }
 
-.logo img{
-width: 200px;
-padding-left: 25%;
+.logo img {
+  width: 300px;
+  padding-left: 30%;
+  margin-top: 15px;
 
 }
+
 // .logo{
 //   // margin-left: 50%;
 //   // margin-right: 20%;
@@ -87,7 +91,7 @@ padding-left: 25%;
 //  .header{
 //   background-size: 30%;
 //   background-color: aqua;
-  
+
 //  } 
 
 //  .elementhd {
