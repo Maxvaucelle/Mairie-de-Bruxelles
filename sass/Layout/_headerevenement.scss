@@ -18,7 +18,7 @@
      .header2 h2{
         font-family: $policeTexte ;
         margin: auto;
-        color:$backgroundMain;
+      
        font-size: 30px;
        margin-bottom: 10px;
       }
@@ -44,9 +44,8 @@ margin-left: 60%;
   
   
     h1 {
-      display: flex;
-      justify-content: center;
-      font-size: 35px;
+ 
+      font-size: 55px;
   
   
     }
@@ -57,7 +56,7 @@ margin-left: 60%;
   
     font-size: 25px;
   
-    a {
+   a {
       text-decoration: underline;
       color: white;
       font-family: $policeTexte;
