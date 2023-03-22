@@ -73,3 +73,13 @@ img {
   z-index: 100;
   transition: left 0.65s ease-out;
 }
+.containerdeux{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+img{border-radius: 100px 100px 0px 0px;
+width: 300px;
+height: 250px;
+}
+
+}
