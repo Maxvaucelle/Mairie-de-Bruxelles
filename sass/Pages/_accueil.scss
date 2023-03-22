@@ -6,9 +6,14 @@ body {
 h2{
 font-family:$policeTitre;
 color: $couleurTitreMain;
+font-size: $tailleTitreEvenement 40px;
 
 }
 p{
 font-family:$policeTexte;
 color: $couleurTexte;
+font-size: $tailleTexte 20px;
+}
+main{
+background-color: $backgroundMain;
 }

@@ -3,19 +3,18 @@ html{
 }
 
 
-
-
 .CorpsDePage {
     background-color: $backgroundMain;
     width: 100%;
     padding-bottom: 5%;
+    padding-top: 2%;
 
     .Event {
         background-color: $backgroundSection;
         width: 90%;
         margin-left: 4%;
         padding-left: 4%;
-        margin-right: 7%;
+        margin-right: 3%;
 
         .DateEvent {
 
@@ -26,6 +25,7 @@ html{
                 font-family: $policeTitre;
                 letter-spacing: 3px;
                 font-size: $tailleTitreEvenement;
+                
             }
         }
     }
@@ -33,20 +33,29 @@ html{
     .BlocImgTxt {
             display: flex;
             flex-direction: row;
-            align-items: flex-end;
+            justify-content: space-between;
             .TexteADroite{
                 margin-left: 0%;
             }
         
     }
 
-    .TexteADroite p{
+    .TexteADroite{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
         color: white;
+        width: 25%;
+        margin-right: 5%;
     }
     
+    .NouvelleTechnologie{
+        margin: 0;
+    }
+
 
     .NouvelleTechnologie img{
-        width: 60%;
+        width: 80%;
         margin-left: 1%;
     }
 }
