@@ -6,11 +6,11 @@ html {
     background-color: $backgroundMain;
     width: 100%;
     padding-bottom: 5%;
-    padding-top: 2%;
+    padding-top: 0%;
 
     .Event {
         background-color: $backgroundSection;
-        width: 88%;
+        width: 87%;
         margin-left: 4%;
         padding-left: 4%;
         padding-bottom: 4%;
@@ -19,12 +19,13 @@ html {
 
             h1 {
                 display: flex;
-                justify-content: start;
+                justify-content: center;
                 color: $couleurTitreMain;
                 font-family: $policeTitre;
                 letter-spacing: 3px;
                 font-size: $tailleTitreEvenement;
                 padding-top: 2%;
+                padding-left: 8px;
             }
         }
     }
@@ -33,7 +34,6 @@ html {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
     }
 
     .TexteADroite {
@@ -55,17 +55,17 @@ html {
         padding-bottom: 4%;
         width: 80%;
         margin-left: 1%;
-
     }
 }
 
 
 .DescriptionPrintempsNumerique {
-    width: 85%;
+    display: flex;
+    gap: 20px;
+    width: 86%;
     margin-left: 9px;
     font-family: $policeTexte ;
     font-size: $tailleTexte;
-
 }
 
 .VideoEvent {
