@@ -1,0 +1,21 @@
+.containerdeux {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+  .EvenementsAccueil{
+  
+    img {
+      border-radius: 100px 100px 0px 0px;
+      width: 300px;
+      height: 250px;
+      padding: 2%;
+      justify-content: space-around;
+      
+    }
+  }
+  }
+  
+  .footerContact {
+    margin-bottom: 0;
+  }
