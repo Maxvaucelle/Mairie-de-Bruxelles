@@ -23,28 +23,25 @@
 .logoContact{
     display: flex;
    gap: 10px;
+   #facebook{
+    width:50px;}
+    #twitter{
+        width:50px;}
+        #instagram{
+            width:50px;}
+            #tiktok{
+                width:50px;}
+                #youtube{
+                    width:50px;}
+                    #spotify{
+                        width:50px;
+                    }
 }
 
-.logoContact #facebook{
-    width:50px;}
 
-.logoContact #twitter{
-    width:50px;}
-
-.logoContact #instagram{
-    width:50px;}
-
-.logoContact #tiktok{
-    width:50px;}
-
-.logoContact #youtube{
-    width:50px;}
-
-.logoContact #spotify{
-    width:50px;
-}
 
 .footerMap{
+    margin-bottom: 5%;
     iframe{
 
         width: 600px;
@@ -60,41 +57,49 @@
     
 }
 
-.basPageTexte{
-  padding-right: 50px;
-  font-family: $policeTexte ;
-  color: $couleurTexte;
-  font-size: $tailleTexte;
-}
-
 .texteEtLien{
     display: flex;
     flex-direction: column;
+   padding-right: 50px;
+   .basPageTexte{
+     display: flex;
+     font-family: $policeTexte ;
+     color: $couleurTexte;
+     font-size: $tailleTexte;
+     justify-content: center;
+    }
+    .lienFooter{
+        
+        font-family: $policeTexte;
+        font-size: 25px;  
+    }
+    .footerHebergement{
+   p{
+    display: flex;
+       justify-content: center;
+   }
+    }
 }
-.lienFooter{
-    margin: 5% 5% 5% 0;
-    font-family: $policeTexte;
-    font-size: 25px;
-    flex-wrap: nowrap;
-   
-}
+
+
+
 
 .logoFooter{
     display:flex;
     flex-direction: column;
    
+    #animaux{
+        width: 57px;
+    }
+    
+    #unesco{
+        width:150px;
+    }
+    
+    #vbx{
+        width:150px;  
+    }
 }
 
-#animaux{
-    width: 57px;
-}
-
-#unesco{
-    width:150px;
-}
-
-#vbx{
-    width:150px;  
-}
 
 
