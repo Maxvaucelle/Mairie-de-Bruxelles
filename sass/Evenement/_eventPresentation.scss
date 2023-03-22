@@ -19,11 +19,12 @@ html {
 
             h1 {
                 display: flex;
-                justify-content: center;
+                justify-content: start;
                 color: $couleurTitreMain;
                 font-family: $policeTitre;
                 letter-spacing: 3px;
                 font-size: $tailleTitreEvenement;
+                padding-top: 2%;
             }
         }
     }
@@ -71,4 +72,8 @@ html {
     display: flex;
     justify-content: center;
     margin-right: 5%;
+}
+
+.footerContact{
+    margin-bottom: 0;
 }
