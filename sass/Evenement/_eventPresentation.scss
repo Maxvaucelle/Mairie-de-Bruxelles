@@ -22,17 +22,26 @@
             }
         }
     }
-    .TexteADroite{
+
+    .BlocImgTxt {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            .TexteADroite{
+                margin-left: 0%;
+            }
+        
+    }
+
+    .TexteADroite {
         color: white;
     }
-p {
-    color: white;
-}
 
-.VideoEvent{
-    width: 60%;
-}
-    #NouvelleTechnologie {
+    p {
+        color: white;
+    }
+
+    .NouvelleTechnologie img{
         width: 50%;
         margin-left: 1%;
     }
