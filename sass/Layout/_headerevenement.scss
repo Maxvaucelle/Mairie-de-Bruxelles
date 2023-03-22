@@ -1,0 +1,76 @@
+.header2 h1 {
+    color:$couleurTitreHeader;
+    align-items: center;
+    font-family: $policeTitre;
+
+  }
+
+  .hd2 {
+    background-image: url(/images/événements/evenement1.webp);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+  height: 300px; }
+
+   
+   
+
+     .header2 h2{
+        font-family: $policeTexte ;
+        margin: auto;
+        color:$backgroundMain;
+       font-size: 30px;
+       margin-bottom: 10px;
+      }
+  
+.elementhd2{
+
+  display: flex;
+  flex-direction: column;
+ 
+  padding-left: 50px;
+  background-color: rgba(0, 0, 0, 0.367);
+  margin-left: 70%;
+  padding-bottom:40px ;
+ 
+
+
+  h1{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+   
+
+  }
+
+}
+  .nav2  {
+
+font-size: 25px;
+
+ a{
+text-decoration:underline;
+color: $backgroundMain;
+font-family: $policeTexte;
+
+
+
+}
+
+  }
+
+ul{
+
+  display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 25px;
+    margin-right: 60px;
+    list-style: none;
+  
+}
+
+.logo2 img{
+  width: 200px;
+padding-left: 25%;
+
+}
