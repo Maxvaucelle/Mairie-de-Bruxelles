@@ -1,82 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="sass/vendors/normalize.css">
-    <link rel="stylesheet" href="sass/main.css">
-    <title>Contact</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sass/vendors/normalize.css">
+  <link rel="stylesheet" href="sass/main.css">
+  <title>Contact</title>
 </head>
+
 <body class="saif">
 
-    <div class="container">
+  <div class="container">
 
-      <h1>
-         Contact
-      </h1>
+    <h1>
+      Contact
+    </h1>
 
-      <p>
+    <p>
 
-         Du 19 au 26 mars 2023 dans différents lieux à Bruxelles.
-         Des activités gratuites sur la thématique de l'eau seront 
-         accessibles au public. Le but de la manifestation est de sensibiliser
-         sur l'importance de l'eau dans notre quotidien et au quotidien. Programme :
+      Du 19 au 26 mars 2023 dans différents lieux à Bruxelles.
+      Des activités gratuites sur la thématique de l'eau seront
+      accessibles au public. Le but de la manifestation est de sensibiliser
+      sur l'importance de l'eau dans notre quotidien et au quotidien. Programme :
 
-      </p>
+    </p>
 
-    </div>
+  </div>
 
-    <form action="" method="get" class="formulaire">
+  <form action="" method="get" class="formulaire">
 
-        <h2>
-            Renseigements
-        </h2>
-        <div class="contact">
+    <h2>
+      Renseignements
+    </h2>
 
-          <div class="lastname">
-            
-             <label for="name">Nom*</label>
-             <input type="text" id="name" name="lastname">
-           </div>
+    <div class="contact">
 
-           <div class="firstname">
 
-             <label for="firstname">Prénom*</label>
-             <input type="text" id="firstname" name="firstname"> 
-           </div>
 
-           <div class="email">
+      <div class="name">
 
-              <label for="email">Email*</label>
-              <input type="email" id="email" name="email">
-           </div>
-      
+        <div class="lastname">
 
-           <div class="phone">
+          <label for="name">Nom*</label>
+          <input type="text" id="name" name="lastname">
+        </div>
 
-             <label for="number">Téléphone*</label>
-             <input type="number" id="number" name="phone">
-           </div>
+        <div class="firstname">
 
-        
-           <div class="message">
+          <label for="firstname">Prénom*</label>
+          <input type="text" id="firstname" name="firstname">
+        </div>
 
-             <label for="message">Votre message</label>
-             <textarea id="message" name="message" placeholder="Bonjour,...." required cols="40" rows="10"></textarea>
+      </div>
 
-           </div>
-    </div>
 
-        <button type="submit" >Envoyer</button>
+      <div class="mail-phone">
 
-    </form>
+
+        <div class="email">
+
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" placeholder="Ex:exemple@exemple.com">
+        </div>
+
+
+        <div class="phone">
+
+          <label for="number">Téléphone*</label>
+          <input type="number" id="number" name="phone">
+        </div>
+
+      </div>
+
+
+      <div class="message">
+
+        <label for="message">Votre message*</label>
+        <textarea id="message" name="message" placeholder="Bonjour,...." required></textarea>
+
+      </div>
+
+   
+
+
+    <button type="submit">Envoyer</button> 
+  </div>
+
+  </form>
 
 
 
