@@ -23,6 +23,16 @@
         }
     }
 
+    .BlocImgTxt {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            .TexteADroite{
+                margin-left: 0%;
+            }
+        
+    }
+
     .TexteADroite {
         color: white;
     }
@@ -31,11 +41,7 @@
         color: white;
     }
 
-    .VideoEvent {
-        width: 30%;
-    }
-
-    #NouvelleTechnologie {
+    .NouvelleTechnologie img{
         width: 50%;
         margin-left: 1%;
     }
