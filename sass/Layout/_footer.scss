@@ -3,26 +3,32 @@
     justify-content: space-evenly;
     margin: 50px;
     width: 100%;
+    .footerTexteContact{
+      
+        p{
+            font-family: $policeTexte;
+            font-size: $tailleTexte;
+        }
+        h1{
+            font-family: $policeTitre;
+            font-size: $tailleTitreEvenement;
+            color: $couleurTitreMain;
+        }
+    }
+    .footerMap{
+        margin-bottom: 5%;
+        iframe{
+    
+            width: 600px;
+            height: 350px;
+        }
+    }
 }
 
-.footerTexteContact{
-    flex-direction: row;
-    align-items: left;
-    flex-wrap: nowrap;
-    p{
-        font-family: $policeTexte;
-        font-size: $tailleTexte;
-    }
-    h1{
-        font-family: $policeTitre;
-        font-size: $tailleTitreEvenement;
-        color: $couleurTitreMain;
-    }
-}
 
 .logoContact{
     display: flex;
-   gap: 10px;
+   gap: 20px;
    #facebook{
     width:50px;}
     #twitter{
@@ -40,46 +46,40 @@
 
 
 
-.footerMap{
-    margin-bottom: 5%;
-    iframe{
-
-        width: 600px;
-        height: 350px;
-    }
-}
 
 .basPage{
     background-color: $backgroundFooter;
     display:flex;
     justify-content: center;
     padding: 2%;
+    .texteEtLien{
+        display: flex;
+        flex-direction: column;
+       padding-right: 50px;
+
+       .basPageTexte{
+         display: flex;
+         font-family: $policeTexte ;
+         color: $couleurTexte;
+         font-size: 20px;
+         justify-content: center;
+        }
+        .lienFooter{
+            
+            font-family: $policeTexte;
+            font-size: 25px;  
+        }
+        .footerHebergement{
+       p{
+        display: flex;
+           justify-content: center;
+           padding-top: 5%;
+       }
+        }
+    }
     
 }
 
-.texteEtLien{
-    display: flex;
-    flex-direction: column;
-   padding-right: 50px;
-   .basPageTexte{
-     display: flex;
-     font-family: $policeTexte ;
-     color: $couleurTexte;
-     font-size: $tailleTexte;
-     justify-content: center;
-    }
-    .lienFooter{
-        
-        font-family: $policeTexte;
-        font-size: 25px;  
-    }
-    .footerHebergement{
-   p{
-    display: flex;
-       justify-content: center;
-   }
-    }
-}
 
 
 
