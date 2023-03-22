@@ -1,3 +1,8 @@
+.ligne{
+
+  border: 2px solid;
+  color: $couleurTitreMain;
+}
 body {
   margin: 0;
   padding: 0%;
@@ -21,14 +26,4 @@ main {
   background-color: $backgroundMain;
   height: 80%;
   padding-top: 4%;
-}
-.footerContact {
-  margin-bottom: 0;
-}
-
-
-.ligne{
-
-  border: 2px solid;
-  color: $couleurTitreMain;
 }
