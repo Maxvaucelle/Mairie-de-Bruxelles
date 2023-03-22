@@ -9,7 +9,15 @@
     flex-direction: row;
     align-items: left;
     flex-wrap: nowrap;
-    
+    p{
+        font-family: $policeTexte;
+        font-size: $tailleTexte;
+    }
+    h1{
+        font-family: $policeTitre;
+        font-size: $tailleTitreEvenement;
+        color: $couleurTitreMain;
+    }
 }
 
 .logoContact{
@@ -70,3 +78,5 @@
 #vbx{
     width:150px;  
 }
+
+
