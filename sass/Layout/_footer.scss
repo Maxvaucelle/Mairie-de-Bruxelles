@@ -67,11 +67,15 @@
   font-size: $tailleTexte;
 }
 
-
+.texteEtLien{
+    display: flex;
+    flex-direction: column;
+}
 .lienFooter{
-    padding-top: 5%;
+    margin: 5% 5% 5% 0;
     font-family: $policeTexte;
     font-size: 25px;
+    flex-wrap: nowrap;
    
 }
 
