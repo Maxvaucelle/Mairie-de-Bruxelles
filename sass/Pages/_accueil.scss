@@ -19,11 +19,13 @@ text-align: justify;
 main{
 background-color: $backgroundMain;
 height: 80%;
+padding-top: 4%;
 }
 .containerun{
 background-color: $backgroundSection;
 margin:5%;
 padding: 5%;
+margin-top: 0%;
 }
 img {
   max-width: 100%;
@@ -82,4 +84,7 @@ width: 300px;
 height: 250px;
 }
 
+}
+.footerContact{
+  margin-bottom: 0;
 }
