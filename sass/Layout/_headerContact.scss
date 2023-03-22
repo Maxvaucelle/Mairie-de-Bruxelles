@@ -1,11 +1,11 @@
-.header2 h1 {
+.header3 h1 {
     color:$couleurTitreHeader;
    
     font-family: $policeTitre;
 
   }
 
-  .hd2 {
+  .hd3 {
     background-image: url(/images/événements/evenement1.webp);
     background-size: 100%;
     background-repeat: no-repeat; 
@@ -15,15 +15,15 @@
    
    
 
-     .header2 h2{
-        font-family:$policeTexte ;
+     .header3 h2{
+        font-family: $policeTexte ;
         margin: auto;
       
        font-size: 30px;
        margin-bottom: 10px;
       }
   
-.contenuhd2{
+.contenuhd3{
 
 
  
@@ -34,7 +34,7 @@
  
 }
 
-  .elementhd2 {
+  .elementhd3 {
 
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@ margin-left: 60%;
   
   }
   
-  .nav2 {
+  .nav3 {
   
     font-size: 25px;
   
@@ -55,6 +55,7 @@ margin-left: 60%;
       color: white;
      font-family:$policeTexte ;
       
+  
     }
   
     a:hover {
@@ -74,13 +75,13 @@ margin-left: 60%;
   
 }
 
-.logo2 img{
+.logo3 img{
   width: 350px;
 padding-left: 25%;
 
 }
 
-.elementhd2{
+.elementhd3{
 
     display: flex;
     flex-direction: column;
