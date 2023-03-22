@@ -2,7 +2,6 @@ html {
     overflow-x: hidden;
 }
 
-
 .CorpsDePage {
     background-color: $backgroundMain;
     width: 100%;
@@ -25,7 +24,6 @@ html {
                 font-family: $policeTitre;
                 letter-spacing: 3px;
                 font-size: $tailleTitreEvenement;
-
             }
         }
     }
@@ -43,12 +41,14 @@ html {
         align-self: center;
         color: white;
         width: 25%;
-        margin-right: 8%;
+        margin-right: 15%;
         font-family: $policeTexte ;
         font-size: $tailleTexte;
     }
 
-
+    .NouvelleTechnologie{
+        width: 80%;
+    }
     .NouvelleTechnologie img {
         display: flex;
         padding-bottom: 4%;
