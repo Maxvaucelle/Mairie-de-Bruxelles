@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+    <script defer src="accueil.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,28 +74,18 @@
             <div class="dernières nouvelles">
                 <h2>Actualités</h2>
             </div>
-            <div class="slider-container">
-                <div class="menu">
-                    <label for="slide-dot-1"></label>
-                    <label for="slide-dot-2"></label>
-                    <label for="slide-dot-3"></label>
+            <div class="slider">
+                <div class="sliderslides" id="slides">
+                  <div class="sliderslide showing"></div>
+          
+                  <div class="sliderslide"></div>
+                  <div class="sliderslide"></div>
                 </div>
-                <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
-                <img src="images/accueil/notabene2.jpg" alt="accrochagescolaire">
-                <a href="https://www.bruxelles.be/service-daccrochage-scolaire-nota-bene-laeken">
-                    <p>Nota Bene, le service d'accrochage scolaire de Bravvo, à Laeken, rue de Moorslede,54.</p>
-                </a>
-                <input class="slide-input" id="slide-dot-2" type="radio" name="slides" checked>
-                <img src="images/accueil/sommet-europe_1.jpg" alt="sommet européen">
-                <a href="https://www.bruxelles.be/sommet-europeen">
-                    <p>Sommet européen à Bruxelles les 23 et 24 mars</p>
-                </a>
-                <input class="slide-input" id="slide-dot-3" type="radio" name="slides" checked>
-                <img src="images/accueil/smart_city.jpg" alt="numerique">
-                <a href="https://www.bruxelles.be/appel-projets-smart-city-2023">
-                    <p>Appel à appel projets smart city 2023</p>
-                </a>
-            </div>
+                <div class="button">
+                  <button class="buttonprev" id="prev">&#10094;</button>
+                  <button class="buttonnext" id="next">&#10095;</button>
+                </div>
+              </div>
         </section>
         <section class="containerdeux">
             <div class="EvenementsAccueil">
