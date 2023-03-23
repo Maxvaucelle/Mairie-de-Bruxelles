@@ -1,11 +1,12 @@
 .formulaire{
 
-border: 1px black solid;
+border: 1px $couleurTitreMain solid;
 margin-left: 10%;
 margin-right: 10%;
 padding-top: 20px;
 padding-bottom: 100px;
-background-color: $backgroundFooter ;
+background-color:$backgroundSection;
+box-shadow:5px 5px  10px $couleurTitreHeader  ;
 }
 
 .formulaire h2{
@@ -38,7 +39,6 @@ background-color: $backgroundFooter ;
 .lastname input{
     width: 152%;
     height:30px;
-    color: $couleurTitreMain;
     margin-top: 10px;
 
 
@@ -47,7 +47,6 @@ background-color: $backgroundFooter ;
 .firstname input{
     width: 162%;
     height:30px;
-    color: $couleurTitreMain;
     margin-top: 10px;
 }
 
@@ -70,7 +69,7 @@ background-color: $backgroundFooter ;
 .email input{
     width: 150%;
     height:30px;
-    color: $couleurTitreMain;
+
     margin-top: 10px;
 
 }
@@ -78,7 +77,6 @@ background-color: $backgroundFooter ;
 .phone input{
     width: 150%;
     height:30px;
-    color: $couleurTitreMain;
     margin-top: 10px;
 }
 
@@ -97,22 +95,28 @@ background-color: $backgroundFooter ;
 .message textarea{
     width: 860px;
     height:200px;
-    color: $couleurTitreMain;
-   
-
     
 }
 
 .contact button{
-    padding: 5px 20px;
-    background-color:$couleurTitreMain;
+    padding: 10px 30px;
+    background-color: #a48438;
     font-family: $policeTexte ;
+    color: $couleurTexte;
     margin-top: 20px;
     display: flex;
     align-self: flex-end;
     margin-right: 13.5%;
-
+    border-radius: 20px;
+    letter-spacing: 1px;
 }
+
+button:hover{
+    background-color:rgb(29, 29, 95);
+ }
+
+
+
 
 
  
