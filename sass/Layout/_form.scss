@@ -1,10 +1,10 @@
 .formulaire{
 
 border: 1px black solid;
-margin-left: 20%;
-margin-right: 20%;
+margin-left: 10%;
+margin-right: 10%;
 padding-top: 20px;
-padding-bottom: 20px;
+padding-bottom: 100px;
 background-color: $backgroundFooter ;
 }
 
@@ -13,6 +13,7 @@ background-color: $backgroundFooter ;
     color:$couleurTitreMain;
     font-family: $policeTitre;
     text-transform: uppercase;
+    padding-bottom: 30px;
 
 }
 
@@ -20,28 +21,34 @@ background-color: $backgroundFooter ;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-left: 5%;
 
 }
 
 .name{
     display: flex;
-    gap: 100px;
+    gap: 200px;
     color:$couleurTitreHeader ;
     font-family: $policeTitre;
     margin-left: 10%;
+    padding-bottom: 30px;
+    
     
 }
 .lastname input{
-    width: 122%;
+    width: 152%;
     height:30px;
     color: $couleurTitreMain;
+    margin-top: 10px;
+
 
 }
 
 .firstname input{
-    width: 130%;
+    width: 162%;
     height:30px;
     color: $couleurTitreMain;
+    margin-top: 10px;
 }
 
 
@@ -51,32 +58,35 @@ background-color: $backgroundFooter ;
 
 .mail-phone{
     display: flex;
-    gap: 100px;
+    gap: 200px;
     padding-top: 15px;
     color:$couleurTitreHeader ;
     font-family: $policeTitre;
     margin-left: 10%;
+    padding-bottom: 30px;
     
 }
 
 .email input{
-    width: 120%;
+    width: 150%;
     height:30px;
     color: $couleurTitreMain;
+    margin-top: 10px;
 
 }
 
 .phone input{
-    width: 120%;
+    width: 150%;
     height:30px;
     color: $couleurTitreMain;
+    margin-top: 10px;
 }
 
 .message{
     display: flex;
     flex-direction: column;
     padding-top: 15px;  
-    gap: 5px;
+    gap: 10px;
     color:$couleurTitreHeader ;
     font-family: $policeTitre;
     margin-left: 10%;
@@ -85,7 +95,7 @@ background-color: $backgroundFooter ;
 
 
 .message textarea{
-    width: 680px;
+    width: 860px;
     height:200px;
     color: $couleurTitreMain;
    
@@ -97,10 +107,10 @@ background-color: $backgroundFooter ;
     padding: 5px 20px;
     background-color:$couleurTitreMain;
     font-family: $policeTexte ;
-    margin-top: 15px;
+    margin-top: 20px;
     display: flex;
     align-self: flex-end;
-    margin-right: 13%;
+    margin-right: 13.5%;
 
 }
 
