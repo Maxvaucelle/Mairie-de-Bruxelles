@@ -18,7 +18,7 @@ background-color: $backgroundFooter ;
 .contact{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
@@ -27,16 +27,17 @@ background-color: $backgroundFooter ;
     gap: 100px;
     color:$couleurTitreHeader ;
     font-family: $policeTitre;
+    margin-left: 10%;
     
 }
 .lastname input{
-    width: 120%;
+    width: 122%;
     height:30px;
 
 }
 
 .firstname input{
-    width: 120%;
+    width: 130%;
     height:30px;
 }
 
@@ -51,6 +52,7 @@ background-color: $backgroundFooter ;
     padding-top: 15px;
     color:$couleurTitreHeader ;
     font-family: $policeTitre;
+    margin-left: 10%;
     
 }
 
@@ -70,14 +72,18 @@ background-color: $backgroundFooter ;
     flex-direction: column;
     padding-top: 15px;  
     gap: 5px;
-    margin: auto;
     color:$couleurTitreHeader ;
     font-family: $policeTitre;
+    margin-left: 10%;
 }
 
+
+
 .message textarea{
-    width: 700px;
+    width: 680px;
     height:200px;
+   
+
     
 }
 
@@ -88,7 +94,7 @@ background-color: $backgroundFooter ;
     margin-top: 15px;
     display: flex;
     align-self: flex-start;
-    margin-left: 20.5%;
+    margin-left: 10%;
 
 }
 
