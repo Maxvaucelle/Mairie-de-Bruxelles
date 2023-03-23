@@ -13,12 +13,13 @@
             font-family: $policeTitre;
             font-size: $tailleTitreEvenement;
             color: $couleurTitreMain;
+            justify-content: start;
         }
     }
     .footerMap{
         margin-right: 5%;
         iframe{
-    
+            
             width: 600px;
             height: 400px;
         }
@@ -61,7 +62,7 @@
         .lienFooter{
             
             font-family: $policeTexte;
-            font-size: 25px; 
+            font-size: 40px; 
             a{
                 color: $couleurTexte;
                } 

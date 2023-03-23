@@ -4,12 +4,25 @@
     padding: 5%;
     margin-top: 0%;
   }
+  .accueilIntro{
+    h2{ text-align: center;}
+    p {text-align: center;}
+  }
+
+  .slider{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    align-items: center;
+  }
   #slides {
     position: relative;
-    height: 300px;
+    height: 500px;
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+    background-image: url("../../images/accueil/notabene2.jpg") ;
+    width: 50%;
   }
   
   .slider__slide {
@@ -24,11 +37,12 @@
     padding: 40px;
     box-sizing: border-box;
     background: #333;
+   
     color: #fff;
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
   }
   
   .showing {
@@ -37,13 +51,13 @@
   }
   
   .slider__slide:nth-of-type(1) {
-    background-image: url("https://www.bruxelles.be/sites/default/files/styles/actu_agenda_view_first/public/smart_city.jpg?itok=2Qsq7wyr")
+    background-image: url("../../images/accueil/notabene2.jpg");
   }
   .slider__slide:nth-of-type(2) {
-    background-image: url("https://www.bruxelles.be/sites/default/files/styles/actu_agenda_view_first/public/sommet-europe_1.jpg?itok=5_IOfq7V");
+    background-image: url("../../images/accueil/smart_city.jpg");
   }
   .slider__slide:nth-of-type(3) {
-    background-image: url("https://www.bruxelles.be/sites/default/files/styles/actu_agenda_view_first/public/notabene2.jpg?itok=m---UDmS");
+    background-image: url("../../images/accueil/sommet-europe_1.jpg");
   }
   
   .button {
@@ -52,6 +66,8 @@
     position: relative;
     margin-top: -166px;
     z-index: 10;
+    left: 0;
+    right:0;
     justify-content: space-between;
   }
   .button__prev,
