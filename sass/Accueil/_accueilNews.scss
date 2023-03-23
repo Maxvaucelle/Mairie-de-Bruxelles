@@ -8,9 +8,16 @@
     h2{ text-align: center;}
     p {text-align: center;}
   }
+
+  .slider{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+    align-items: center;
+  }
   #slides {
     position: relative;
-    height: 300px;
+    height: 500px;
     padding: 0px;
     margin: 0px;
     list-style-type: none;
