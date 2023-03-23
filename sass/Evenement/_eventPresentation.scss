@@ -29,6 +29,9 @@ html {
             }
         }
     }
+    p .TexteADroite .DescriptionPrintempsNumerique{
+        font-size: $tailleTexte;
+    }
 
     .BlocImgTxt {
         display: flex;
@@ -44,7 +47,6 @@ html {
         width: 25%;
         margin-right: 15%;
         font-family: $policeTexte ;
-        font-size: $tailleTexte;
     }
 
     .NouvelleTechnologie{
@@ -65,7 +67,6 @@ html {
     width: 86%;
     margin-left: 9px;
     font-family: $policeTexte ;
-    font-size: $tailleTexte;
 }
 
 .VideoEvent {
