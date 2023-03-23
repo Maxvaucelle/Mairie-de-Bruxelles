@@ -1,9 +1,14 @@
 .containerdeux {
     gap: 10px;
-    
+  
+  .imagesEvenement{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+  }
   .EvenementsAccueil{
-    display: flex;
-    flex-wrap: wrap;
     h2 {text-align: center;}
     p {text-align: center;}
   
@@ -16,6 +21,6 @@
       
     }
   }
-  }
+  
   
  
