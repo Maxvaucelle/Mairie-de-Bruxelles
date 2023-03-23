@@ -1,9 +1,9 @@
 .footerContact{
     display: flex;
     justify-content: space-around;
-    margin: 50px;
     width: 100%;
     margin-bottom: 0;
+    padding: 5%;
       
     .footerTexteContact{
        
@@ -16,11 +16,11 @@
         }
     }
     .footerMap{
-        margin-bottom: 5%;
+        margin-right: 5%;
         iframe{
     
-            width: 500px;
-            height: 350px;
+            width: 600px;
+            height: 400px;
         }
     }
 }
