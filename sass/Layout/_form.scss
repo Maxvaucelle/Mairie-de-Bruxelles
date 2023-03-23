@@ -13,6 +13,7 @@ background-color: $backgroundFooter ;
     color:$couleurTitreMain;
     font-family: $policeTitre;
     text-transform: uppercase;
+
 }
 
 .contact{
@@ -33,12 +34,14 @@ background-color: $backgroundFooter ;
 .lastname input{
     width: 122%;
     height:30px;
+    color: $couleurTitreMain;
 
 }
 
 .firstname input{
     width: 130%;
     height:30px;
+    color: $couleurTitreMain;
 }
 
 
@@ -59,12 +62,14 @@ background-color: $backgroundFooter ;
 .email input{
     width: 120%;
     height:30px;
+    color: $couleurTitreMain;
 
 }
 
 .phone input{
     width: 120%;
     height:30px;
+    color: $couleurTitreMain;
 }
 
 .message{
@@ -82,6 +87,7 @@ background-color: $backgroundFooter ;
 .message textarea{
     width: 680px;
     height:200px;
+    color: $couleurTitreMain;
    
 
     
@@ -93,8 +99,8 @@ background-color: $backgroundFooter ;
     font-family: $policeTexte ;
     margin-top: 15px;
     display: flex;
-    align-self: flex-start;
-    margin-left: 10%;
+    align-self: flex-end;
+    margin-right: 13%;
 
 }
 
