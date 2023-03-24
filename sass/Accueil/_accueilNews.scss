@@ -21,10 +21,15 @@
 
   }
 
+  .ActusLiens a{
+    color: $couleurTitreMain;
+   
+  }
+
   .slider{
     display: flex;
     flex-direction: column;
-    padding-bottom: 5%;
+
     align-items: center;
    
   }
