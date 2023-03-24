@@ -39,16 +39,17 @@
   padding-left: 50px;
   background-color: rgba(94, 83, 83, 0.296);
   padding-bottom: 250px;
+  padding-top: 30px;
 }
 
 .nav2 {
   font-size: 25px;
   display: flex;
   justify-content: end;
-  padding-right: 25px;
+  padding-right: 55px;
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
     font-family: $policeTexte ;
   }
@@ -73,6 +74,6 @@
 }
 
 .logo2 img {
-  width: 380px;
-  padding-right: 100px; 
+  width: 280px;
+  padding-right: 120px;
 }

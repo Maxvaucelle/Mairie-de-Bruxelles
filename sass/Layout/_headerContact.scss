@@ -39,6 +39,7 @@
   padding-left: 50px;
   background-color: rgba(94, 83, 83, 0.296);
   padding-bottom: 250px;
+  padding-top: 30px;
 }
 
 .nav3 {
@@ -48,7 +49,7 @@
   padding-right: 25px;
   
   a {
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
     font-family: $policeTexte ;
   }
@@ -73,6 +74,8 @@
 }
 
 .logo3 img {
-  width: 380px;
-  padding-right: 100px;
+  width: 280px;
+  padding-right: 120px;
 }
+
+
