@@ -23,6 +23,8 @@
 .TitreHeaderEvenement {
   font-size: 55px;
   padding-left: 20%;
+  display: flex;
+  justify-content: space-between;
   .TitreEvenement{
     display: flex;
     margin-top: 0;
