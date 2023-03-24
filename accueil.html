@@ -20,43 +20,47 @@
 
 <body>
     <header>
-        <div class="header">
-            <div class="contenuhd">
-                <div class="elementhd">
+        <img src="/images/icones/burger.png" id="burger" alt="">
+        <aside>
 
-                    <div class="logo">
-                        <img src="images/accueil/R.png" alt="">
-                    </div>
-
-
-
-                    <div class="nav">
-                        <nav>
-                            <ul class="AccueilNav">
-                                <li><a href="accueil.html"> ACCUEIL</a>
-                                <li><a href="evenement.html"> EVENEMENTS</a>
-                                <li><a href="contact.html"> CONTACT</a>
-                                </li>
-                            </ul>
-
-                        </nav>
-
-                    </div>
-
-                    <h1>VILLE DE BRUXELLES</h1>
-
-                    <h2>Bienvenue</h2>
-                    <div class="recherches">
-                        <div class="search-box">
-                            <input type="text" name="loupe" class="search-txt" placeholder="Tapez pour rechercher">
-                            <a class="search-btn" href="evenement.html">
-                                <i class="fa fa-search" aria-hidden="true"></i>
-                            </a>
+            <div class="header">
+                <div class="contenuhd">
+                    <div class="elementhd">
+    
+                        <div class="logo">
+                            <img src="images/accueil/R.png" alt="">
+                        </div>
+    
+    
+    
+                        <div class="nav">
+                            <nav>
+                                <ul class="AccueilNav">
+                                    <li><a href="accueil.html" id="ac"> Accueil</a>
+                                    <li><a href="evenement.html" id="ac"> Evenements</a>
+                                    <li><a href="contact.html" id="ac"> Contact</a>
+                                    </li>
+                                </ul>
+    
+                            </nav>
+    
+                        </div>
+    
+                        <h1>VILLE DE BRUXELLES</h1>
+    
+                        <h2>Bienvenue</h2>
+                        <div class="recherches">
+                            <div class="search-box">
+                                <input type="text" name="loupe" class="search-txt" placeholder="Tapez pour rechercher">
+                                <a class="search-btn" href="evenement.html">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </aside>
     </header>
     <div class="ligne"></div>
     <main>
@@ -73,18 +77,15 @@
                 <h2>Actualités</h2>
             </div>
             <div class="slider">
-                <div class="sliderslides" id="slides">
-                    <div class="slider__slide"></div>
 
-                    <div class="slider__slide"></div>
-                    <div class="slider__slide"></div>
-
-                </div>
-                <div class="button">
-                    <button class="buttonprev" id="prev">&#10094;</button>
-                    <button class="buttonnext" id="next">&#10095;</button>
-                </div>
+                <img src="images/accueil/foiredumidi.jpg" alt="foire de Bruxelles ">
+                <img src="images/accueil/sommet-europe_1.jpg" alt=" Drapeaux">
+                <img src="images/accueil/B9716631942Z.1_20180816135623_000+G7LBS3NDI.1-0.jpg" alt="jardin inauguration">
+                <img src="images/accueil/src_10006223.jpg" alt=" Manneken pis ">
+                <span class="arrow prev">&#10094;</span>
+                <span class="arrow next">&#10095;</span>
             </div>
+
         </section>
         <section class="containerdeux">
             <div class="EvenementsAccueil">
@@ -252,7 +253,7 @@
         </div>
 
     </footer>
-
+    <script src="slider.js"> </script>
 </body>
 
 </html>
