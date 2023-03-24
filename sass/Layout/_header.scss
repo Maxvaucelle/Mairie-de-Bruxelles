@@ -2,7 +2,6 @@
   color: $couleurTitreHeader;
   align-items: center;
   font-family: $policeTitre;
-
 }
 
 header {
@@ -28,20 +27,23 @@ header {
 
   display: flex;
   flex-direction: column;
-
   padding-left: 50px;
   background-color: rgba(0, 0, 0, 0.474);
   margin-left: 60%;
-  padding-bottom: 140px;
+  padding-bottom: 160px;
 
 
-
+ 
   h1 {
     display: flex;
     justify-content: center;
     font-size: 35px;
 
 
+  }
+  h2{
+    display: flex;
+    justify-content: center;
   }
 
 }
