@@ -1,26 +1,24 @@
 .containerdeux {
-    gap: 10px;
-  
-  .imagesEvenement{
+  .imagesEvenementun{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 5px;
+    padding-bottom: 50px;
 }
-  }
+.imagesEvenementdeux{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  
+} 
   .EvenementsAccueil{
     h2 {text-align: center;}
     p {text-align: center;}
-  
+  }
     img {
       border-radius: 100px 100px 0px 0px;
       width: 300px;
       height: 250px;
       padding: 2%;
-      justify-content: space-around;
-      
     }
   }
-  
-  
- 
