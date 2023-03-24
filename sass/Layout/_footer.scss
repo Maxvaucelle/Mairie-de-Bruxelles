@@ -9,22 +9,33 @@
        
       
        
-        h1{
+        h2{
             font-family: $policeTitre;
-            font-size: $tailleTitreEvenement;
+            font-size: xxx-large;
             color: $couleurTitreMain;
             justify-content: start;
+            margin-top: 0;
         }
     }
     .footerMap{
-        margin-right: 5%;
-        iframe{
+        display: flex;
+        justify-content: center;
+        margin-right:  10%;
+         iframe{
             
-            width: 600px;
-            height: 400px;
+           width: 600px;
+        height: 400px;
+        
         }
     }
 }
+
+.footerTexteContact p{
+
+    margin-right: 20%;
+    line-height: 40px;
+}
+
 .logoContact{
     display: flex;
    gap: 20px;
@@ -95,4 +106,70 @@
 }
 
 
+@media all and (max-width: 500px)   {
+footer{
+    width: 100%;
+}
 
+
+.footerContact{
+    flex-direction: column;
+    width: 100%;
+    padding: 0%;
+    margin-left: 5%;
+}
+
+.footerContact h2{
+
+    width: 100%;
+}
+.footerContact p{
+    font-size:large;
+
+}
+
+.logoContact{
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+
+
+.footerTexteContact{
+    width: 100%;
+}
+
+.footerMap iframe{
+    height: 300px;
+    width: 300px;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+
+
+.logoFooter{
+    flex-direction: row;
+}
+
+.basPage{
+    display: flex;
+    flex-direction: column;
+}
+.basPageTexte p{
+    font-size:medium;
+    
+}
+
+.lienFooter {
+    width: 100%;
+}
+.lienFooter a{
+    font-size: 20px;
+}
+
+.footerHebergement p{
+    font-size:medium;
+}
+
+}
