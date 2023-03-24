@@ -32,7 +32,7 @@ header {
   padding-left: 50px;
   background-color: rgba(0, 0, 0, 0.474);
   margin-left: 60%;
-  padding-bottom: 110px;
+  padding-bottom: 140px;
 
 
 
@@ -50,7 +50,7 @@ header {
 
   font-size: 25px;
 
-  a {
+  #ac {
     text-decoration: none;
     color: white;
     font-family:$policeTexte;
@@ -58,7 +58,7 @@ header {
 
   }
 
-  a:hover {
+  #ac:hover {
     color:#DABB70 ;
   }
 
@@ -75,7 +75,7 @@ header {
 }
 
 .logo img {
-  width: 300px;
+  width: 250px;
   padding-left: 30%;
   margin-top: 15px;
 
@@ -199,7 +199,7 @@ header {
       // test 
       
     
-a {
+#ac {
   position: relative;
  
   
