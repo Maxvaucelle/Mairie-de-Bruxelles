@@ -29,7 +29,7 @@
     .lienDemarche{
         display: flex;
         flex-direction: row;
-       a{
+       a{justify-content: space-around;
         text-decoration: none;
         img {
             height: 50px;
