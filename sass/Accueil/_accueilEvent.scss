@@ -1,16 +1,16 @@
 .containerdeux {
-  .imagesEvenementun{
+  .imagesEvenementsun{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
     padding-bottom: 50px;
 }
-.imagesEvenementdeux{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px;
-  
-} 
+.imagesEvenementsdeux{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-gap: 5px;
+}
+
   .EvenementsAccueil{
     h2 {text-align: center;}
     p {text-align: center;}
@@ -21,4 +21,4 @@
       height: 250px;
       padding: 2%;
     }
-  }
+}
