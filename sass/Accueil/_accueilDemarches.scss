@@ -8,14 +8,14 @@
         background-color: white;
         border-radius: 50%;
         width: 500px;
-        height:300px;
+        height:400px;
     
         img{
             position: relative;
             display: flex;
             height: 70%;
-            width: 70%;
-            top: 7%;
+            width: 60%;
+            top: 10%;
         }
 
     }
@@ -29,7 +29,7 @@
     .lienDemarche{
         display: flex;
         flex-direction: row;
-       a{
+       a{justify-content: space-around;
         text-decoration: none;
         img {
             height: 50px;
@@ -41,4 +41,10 @@
           font-size: $tailleTexte;  
         }
     }
+}
+
+fieldset{
+  margin-right: 5% ;
+  margin-left: 5% ;
+ margin-top: 5%;
 }

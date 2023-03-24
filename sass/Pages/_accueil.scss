@@ -31,50 +31,10 @@ main {
 padding-top: 30px;
 }
 
-// slider accueil
-
-.slider {
-  // width: 100%;
-  height: 800px;
-  overflow: hidden;
-  position: relative;
- 
-  // margin-right: 2%;
+.containerun p{
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
 }
-
-.slider img {
-  width: 80%;
-  height: 80%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
- padding-left: 10%;
-  
-}
-
-.slider img.active {
-  opacity: 1;
-}
-
-.slider .arrow {
-  position: absolute;
-  top:40%;
-  padding-right: 10%;
-  transform: translateY(-50%);
-  font-size: 50px;
-  cursor: pointer;
-  color: $couleurTitreMain;
-}
-
-.slider .prev {
- left: 11%;
-}
-
-.slider .next {
-  right: 10px;
-}
-
 
 // media queries
