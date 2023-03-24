@@ -1,5 +1,5 @@
 .containerdeux {
-  .imagesEvenementsun{
+  .imagesEvenementsAccueil{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
@@ -7,11 +7,11 @@
 }
 .imagesEvenementsdeux{
  display: grid;
- grid-template-columns: repeat(3,1fr);
+ grid-template-columns: repeat(3, 1fr);
  grid-gap: 5px;
 }
 
-  .EvenementsAccueil{
+  .containerdeuxtexte{
     h2 {text-align: center;}
     p {text-align: center;}
   }
