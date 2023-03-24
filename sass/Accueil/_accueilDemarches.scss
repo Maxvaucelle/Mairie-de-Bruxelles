@@ -7,28 +7,35 @@
         justify-content: center;
         background-color: white;
         border-radius: 50%;
-        width: 400px;
-        height:400px;
+        width: 500px;
+        height:300px;
+    
         img{
             position: relative;
             display: flex;
-          height: 80%;
-            width: 80%;
+            height: 70%;
+            width: 70%;
             top: 7%;
         }
+
     }
     .demarchesTexte{
         flex-direction: column;
         p{
             text-align: start;
         }
-       
     }
+   
     .lienDemarche{
         display: flex;
         flex-direction: row;
-       a{
+       a{justify-content: space-around;
         text-decoration: none;
+        img {
+            height: 50px;
+            width: 50px;
+            transform: rotate(180deg);
+        }
        }
         h2{
           font-size: $tailleTexte;  
