@@ -1,14 +1,21 @@
+
+.EvenementsAccueil{
+  margin-left: 10%;
+}
+
 .containerdeux {
+
   .imagesEvenementsAccueil{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 5px;
     padding-bottom: 50px;
 }
-.imagesEvenementsdeux{
+.foiredumidi{
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  grid-gap: 5px;
+ padding-bottom: 50px;
 }
 
   .containerdeuxtexte{
