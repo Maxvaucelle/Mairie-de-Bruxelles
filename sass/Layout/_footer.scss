@@ -14,9 +14,12 @@
             font-size: xxx-large;
             color: $couleurTitreMain;
             justify-content: start;
+            margin-top: 0;
         }
     }
     .footerMap{
+        display: flex;
+        justify-content: center;
         margin-right:  10%;
          iframe{
             
