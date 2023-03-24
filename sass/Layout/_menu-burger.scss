@@ -1,19 +1,18 @@
 #burger{
  
-    display: block;
+    display: none;
     position: absolute;
+    width: 50px;
     right: 10px;
     top: 10px;
     z-index: 10000;
-    width: 50px;
+  }
+
+  @media screen and ( max-width: 500px)  {
+
+    #burger{
+        display: block;
+    }
+    
   }
     
-//   aside {
-//     display:flex;
-//     flex-direction: row-reverse;
-//     height: auto;
-//     width:auto;
-//     max-width: 100%;
-//     z-index: 1000;
-    
-//   }
