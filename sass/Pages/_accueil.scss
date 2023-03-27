@@ -9,22 +9,22 @@ body {
   padding: 0%;
 }
 
-h2 {
-  font-family: $policeTitre;
-  color: $couleurTitreMain;
-  font-size: $tailleTitreEvenement ;
-}
 
-p {
-  font-family: $policeTexte;
-  color: $couleurTexte;
-  font-size: $tailleTexte ;
-}
 
 main {
   background-color: $backgroundMain;
   height: 80%;
   padding-top: 4%;
+  h2 {
+    font-family: $policeTitre;
+    color: $couleurTitreMain;
+    font-size: $tailleTitreEvenement ;
+  }
+  p {
+    font-family: $policeTexte;
+    color: $couleurTexte;
+    font-size: $tailleTexte ;
+  }
 }
 
 .dernieresnouvelles{

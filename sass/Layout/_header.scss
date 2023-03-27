@@ -35,8 +35,8 @@ header {
   h1{
    display: flex;
     font-family: $policeTitre;
-    font-size: 80px;
-    align-self: center;
+    font-size: 60px;
+    // align-self: center;
    text-align: center;
   
    
@@ -65,18 +65,23 @@ header {
   padding-bottom: 3%;
   padding-right: 9%;
 
-
+aside{
+  width: 130%;
+ padding: 10%;
+}
  
-  h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 35px;
+  h3 {
+   
+    font-size: xx-large;
+    color: #eeeeee;
+    text-align: center;
 
 
   }
   h2{
-    display: flex;
-    justify-content: center;
+    font-size: xx-large;
+    color: #eeeeee;
+    text-align: center;
   }
 
 }
