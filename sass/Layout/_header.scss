@@ -12,6 +12,35 @@ header {
   height: 500px;
 }
 
+.headerContact{
+  background-image: url(/images/photos/pexels-vlada-karpovich-4050470.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  height: 500px;
+
+}
+
+.headerEvent{
+  background-image: url(/images/événements/evenement1.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  height: 500px;
+}
+
+.contenuhd{
+  display: flex;
+
+  h1{
+   
+    font-family: $policeTitre;
+    font-size: $tailleTitreEvenement;
+    align-self: center;
+    
+  }
+}
+
 
 
 

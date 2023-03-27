@@ -1,25 +1,22 @@
-var slides = document.querySelectorAll('#slides .slider__slide');
-var next = document.getElementById('next');
-var previous = document.getElementById('prev');
-var currentSlide = 0;
+const images = document.querySelectorAll('.slider img');
+const prevArrow = document.querySelector('.slider .prev');
+const nextArrow = document.querySelector('.slider .next');
+let index = 0;
 
-function nextSlide() {
-    goToSlide(currentSlide+1);
+function changeImage() {
+  images[index].classList.remove('active');
+  index = (index + 1) % images.length;
+  images[index].classList.add('active');
 }
- 
-function previousSlide() {
-    goToSlide(currentSlide-1);
+
+function showPrevImage() {
+  images[index].classList.remove('active');
+  index = (index - 1 + images.length) % images.length;
+  images[index].classList.add('active');
 }
- 
-function goToSlide(n) {
-    slides[currentSlide].className = 'slider__slide';
-    currentSlide = (n+slides.length)%slides.length;
-    slides[currentSlide].className = 'slider__slide showing';
-}
- 
-next.onclick = function() {
-    nextSlide();
-};
-previous.onclick = function() {
-    previousSlide();
-};
+
+prevArrow.addEventListener('click', showPrevImage);
+nextArrow.addEventListener('click', changeImage);
+
+images[index].classList.add('active');
+setInterval(changeImage, 3000);
