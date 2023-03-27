@@ -12,7 +12,7 @@
   height: 500px;
 }
 
-.header3 h2 {
+.header3 h1{
   font-family: $policeTexte ;
   margin: auto;
   font-size: 30px;
@@ -79,3 +79,32 @@
 }
 
 
+@media all and  (max-width: 500px){
+  .hd3{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .logo3 img{
+    padding-right: 0;
+  }
+
+  .TitreHeaderContact {
+    padding-left: 0;
+    flex-direction: column-reverse;
+  }
+
+  .TitreHeaderContact  .TitreContact{
+    font-size: 30px;
+    margin-top: 60px;
+  }
+
+  .nav3{
+    display: block;
+  }
+
+  
+
+
+}

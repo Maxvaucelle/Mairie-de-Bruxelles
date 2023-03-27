@@ -19,4 +19,4 @@ prevArrow.addEventListener('click', showPrevImage);
 nextArrow.addEventListener('click', changeImage);
 
 images[index].classList.add('active');
-setInterval(changeImage, 5000);
+setInterval(changeImage, 3000);
