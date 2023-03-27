@@ -13,6 +13,15 @@
     #burger{
         display: block;
     }
+
+    aside{
+     
+      display: none;
+    }
+
+    aside.active{
+      display: block;
+    }
     
   }
     

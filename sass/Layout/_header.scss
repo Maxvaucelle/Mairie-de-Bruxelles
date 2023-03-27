@@ -164,8 +164,9 @@ header {
       }
       
       /* On screens that are 600px wide or less, the background color is olive */
-      @media screen and (max-width: 320px) {
+      @media screen and (max-width: 500px) {
         .logo img {
+          
           width: 60%;
          }
   
