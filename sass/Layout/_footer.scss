@@ -146,11 +146,15 @@ footer{
 }
 
 .footerMap iframe{
-    height: 200px;
-    width: 300px;
+  
     margin-left: 7%;
     margin-right: 5%;
     padding-bottom: 25px;
+}
+
+.footerContact .footerMap iframe {
+    height: 200px;
+    width: 300px;
 }
 
 
