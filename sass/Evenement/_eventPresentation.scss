@@ -8,14 +8,14 @@ html {
     padding-bottom: 5%;
     padding-top: 0%;
 
-    .Event {
+    .EventNumerique {
         background-color: $backgroundSection;
         width: 87%;
         margin-left: 4%;
         padding-left: 4%;
         padding-bottom: 4%;
 
-        .DateEvent {
+        .DateEventNum {
 
             h1 {
                 display: flex;
@@ -69,12 +69,6 @@ html {
     font-family: $policeTexte ;
 }
 
-.VideoEvent {
-    display: flex;
-    justify-content: center;
-    margin-right: 5%;
-    margin-top: 2%;
-}
 
 .footerContact{
     margin-bottom: 0;
