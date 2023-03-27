@@ -7,7 +7,7 @@
   .accueilIntro{
     
     p {
-    font-size: 20px;}
+      font-size: $tailleTexte;}
 
     h2{
       font-size: $tailleTitreEvenement;
@@ -107,9 +107,17 @@
 }
 
 .slider .prev {
- left: 11%;
+ left: 10px;
 }
 
 .slider .next {
   right: 10px;
 }
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 20px
+  }
+  p{
+    font-size: 10px;
+  }
+  }
