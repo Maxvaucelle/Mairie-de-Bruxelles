@@ -4,8 +4,8 @@ document.querySelector("#burger").addEventListener('click', () => {
     const burger = document.querySelector('#burger');
     console.log(toggle)
     if (toggle) {
-        burger.src ='/images/icones/croix.png';
+        burger.src ='/images/accueil/R2.png';
     } else {
-        burger.src = '/images/icones/burger.png';
+        burger.src = '/images/accueil/R.png';
     }
 } )
