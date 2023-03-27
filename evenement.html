@@ -16,18 +16,30 @@
 </head>
 
 <body>
-    <header class="hd2">
-        <div class="header2">
-            <div class="contenuhd2">
-                <div class="EventLogo">
+    <header>
+       
 
-                    <div class="logo2">
-                        <img src="images/accueil/R.png" alt="">
+        <div class="headerEvent">
+            <div class="contenuhd">
+                <h1>Evenements</h1>
+
+                <div class="elementhd">
+
+                    <div class="logo">
+                        <img src="images/accueil/R.png" id="burger" alt="">
                     </div>
 
-                    <div class="TitreHeaderEvenement">
-                        <h1 class="TitreEvenement">EVENEMENTS</h1>
+                    <aside>
+                        <div class="nav">
+                            <nav>
+                                <ul class="AccueilNav">
+                                    <li><a href="accueil.html" id="ac"> Accueil</a>
+                                        <li><a href="evenement.html" id="ev"> Evenements</a>
+                                            <li><a href="contact.html" id="co"> Contact</a>
+                                    </li>
+                                </ul>
 
+<<<<<<< HEAD
                         <div class="nav2">
 
                             <ul class="EvenementNav">
@@ -36,17 +48,27 @@
                                 <li><a href="contact.html" id="co"> Contact</a>
                                 </li>
                             </ul>
+=======
+                            </nav>
+>>>>>>> 00aa48749488b5da2f2c711bd16d6b02e12ebd3f
 
                         </div>
 
-                    </div>
+                        <h2>VILLE DE BRUXELLES</h2>
 
+                        <h3>Bienvenue</h3>
+                        <div class="recherches">
+                            <div class="search-box">
+                                <input type="text" name="loupe" class="search-txt" placeholder="Tapez pour rechercher">
+                                <a class="search-btn" href="evenement.html">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
-
             </div>
-
         </div>
-
     </header>
 
     <div class="ligne"></div>
@@ -66,7 +88,7 @@
                 <div class="BlocImgTxt">
 
                     <div class="NouvelleTechnologie">
-                        <img src="/images/événements/imageevenement.jpg" alt="évenement">
+                       <a href="https://www.printempsnumerique.ca/"><img src="/images/événements/imageevenement.jpg" alt="évenement"></a>
                     </div>
 
                     <p class="TexteADroite">
@@ -320,6 +342,8 @@
         </div>
 
     </footer>
+
+    <script src="/js/menu-burger.js"></script>
 
 </body>
 

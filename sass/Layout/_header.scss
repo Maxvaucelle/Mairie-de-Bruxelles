@@ -12,6 +12,38 @@ header {
   height: 500px;
 }
 
+.headerContact{
+  background-image: url(/images/photos/pexels-vlada-karpovich-4050470.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  height: 500px;
+
+}
+
+.headerEvent{
+  background-image: url(/images/événements/evenement1.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 40%;
+  height: 500px;
+}
+
+.contenuhd{
+  display: flex;
+
+  h1{
+   display: flex;
+    font-family: $policeTitre;
+    font-size: 80px;
+    align-self: center;
+   text-align: center;
+  
+   
+    
+  }
+}
+
 
 
 
@@ -30,7 +62,8 @@ header {
   padding-left: 50px;
   background-color: rgba(0, 0, 0, 0.474);
   margin-left: 60%;
-  padding-bottom: 160px;
+  padding-bottom: 3%;
+  padding-right: 9%;
 
 
  
