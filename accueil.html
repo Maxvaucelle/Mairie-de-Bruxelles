@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <head>
+    <script defer src="/js/accueil.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,16 +20,14 @@
 
 <body>
     <header>
+        <img src="/images/icones/burger.png" id="burger" alt="">
 
-
-        <div class="headerAccueil">
+        <div class="header">
             <div class="contenuhd">
-
-                <h1>Accueil</h1>
                 <div class="elementhd">
 
                     <div class="logo">
-                        <img src="images/accueil/R.png" id="burger" alt="">
+                        <img src="images/accueil/R.png" alt="">
                     </div>
 
                     <aside>
@@ -36,8 +35,8 @@
                             <nav>
                                 <ul class="AccueilNav">
                                     <li><a href="accueil.html" id="ac"> Accueil</a>
-                                    <li><a href="evenement.html" id="ev"> Evenements</a>
-                                    <li><a href="contact.html" id="co"> Contact</a>
+                                    <li><a href="evenement.html" id="ac"> Evenements</a>
+                                    <li><a href="contact.html" id="ac"> Contact</a>
                                     </li>
                                 </ul>
 
@@ -45,9 +44,9 @@
 
                         </div>
 
-                        <h2>VILLE DE BRUXELLES</h2>
+                        <h1>VILLE DE BRUXELLES</h1>
 
-                        <h3>Bienvenue</h3>
+                        <h2>Bienvenue</h2>
                         <div class="recherches">
                             <div class="search-box">
                                 <input type="text" name="loupe" class="search-txt" placeholder="Tapez pour rechercher">
@@ -95,6 +94,7 @@
                 <h2>Actualités</h2>
 
             </div>
+
             <div class="slider">
 
                 <img src="images/accueil/foiredumidi.jpg" alt="foire de Bruxelles ">
@@ -106,43 +106,111 @@
             </div>
 
         </section>
+
+
         <section class="containerdeux">
+
             <div class="containerdeuxtexte">
+
                 <h2>Evénements</h2>
-                <p>La Ville de Bruxelles organise ou accueille de nombreux évènements qui ponctuent l'année.</p>
+                <p>La Ville de Bruxelles organise ou accueille de nombreux évènements qui ponctuent l'année. Evénements
+                    sportifs et culturels, il y en a pour tous les goûts, Citoyens veuillez participer à la bonne
+                    dynamique de la ville.</p>
             </div>
+
             <div class="EvenementsAccueil">
 
                 <div class="imagesEvenementsAccueil">
 
-                    <div class="tapisdefleur"><a href="https://www.flowercarpet.brussels/"><img
-                                src="images/événements/imageevenement.jpg" alt="tapisdefleur"></a>
+                    <div class="overlay-image">
+                        <div class="tapisdefleur">
+                          
+                                <img src="images/événements/imageevenement.jpg" alt="tapisdefleur"></a>
+                        </div>
+                        <div class="hover-image">
+                          
+                            <h3>ven. 24 mars - sam. 25 mars 2023</h3>
+                            <p>Printemps Numérique</p>
+                        </div>
                     </div>
 
-                    <div class="festivaldété"><a href="https://bsf.be/fr/"><img
-                                src="images/accueil/brusselssumerfestival.jpg" alt="festivaldété"></a>
-                    </div>
 
-                    <div class="epreuvecyclisme"><a href="https://www.bruxelles.be/bxl-tour"><img
-                                src="images/accueil/bxl-tour.jpg" alt="epreuvecyclisme"></a>
+
+
+                    <div class="overlay-image">
+                    <div class="festivaldété"><img src="images/accueil/brusselssumerfestival.jpg" alt="festivaldété">
                     </div>
+                    <div class="hover-image">
+                          
+                       
+                        <h3> 10 août - 13 août 2023</h3>
+                        <p>Summer Music Festival</p>
+                    </div>
+                </div>
+
+
+                    <div class="overlay-image">
+                    <div class="epreuvecyclisme"><img src="images/accueil/bxl-tour.jpg" alt="epreuvecyclisme">
+                    </div>
+                    <div class="hover-image">
+                          
+                        
+                        <h3>Dimanche 18 juin 2023</h3>
+                        <p>Bruxelle Tour</p>
+                    </div>
+                </div>
+
+
 
                 </div>
+
                 <div class="imagesEvenementsAccueildeux">
-                    <div class="foiredumidi"><a href="https://www.foiredumidi.brussels/"><img
-                                src="images/accueil/foiredumidi.jpg" alt="foiredumidi"></a>
 
-                        <div class="diablerouge"><a href="https://www.rbfa.be/fr"><img
-                                    src="images/accueil/equipenationaledebelgique.jpg" alt="diablerouge"></a>
-                        </div>
 
-                        <div class="hallété"><a href="https://vauxhallsummer.brussels/"><img
-                                    src="images/événements/EventImage.png" alt="hallété"></a>
-                        </div>
+                    <div class="overlay-image">
+                    <div class="foiredumidi"><img src="images/accueil/foiredumidi.jpg" alt="foiredumidi">
+                    </div>
+                    <div class="hover-image">
+                          
+                        
+                        <h3>Week-end du 21 Juillet 2023</h3>
+                        <p>La Foire du Midi</p>
                     </div>
                 </div>
+
+
+                    <div class="overlay-image">
+                    <div class="diablerouge"><img src="images/accueil/equipenationaledebelgique.jpg" alt="diablerouge">
+                    </div>
+                    <div class="hover-image">
+                          
+                        
+                        <h3>Coup d’envoi le 24 mars 2023</h3>
+                        <p>Coup d'envoie EURO 2024</p>
+                    </div>
+                </div>
+
+
+
+                    <div class="overlay-image">
+                    <div class="hallété"><img src="images/événements/EventImage.png" alt="hallété">
+                    </div>
+                    <div class="hover-image">
+                          
+                   
+                        <h3>7 mars 2023</h3>
+                        <p>Mannifestation avec le Peuple, pour le Peuple !</p>
+                    </div>
+                </div>
+
+
+                </div>
+
                 <a href="">Voir les évènements </a>
             </div>
+
+
+
             <fieldset>
                 <div class="demarches">
                     <div class="circle">
@@ -150,7 +218,7 @@
                     </div>
                     <div class="demarcheTexte">
                         <h2>Mes démarches en ligne</h2>
-                        <p>Demande ou renouvellement de papiers officiels: carte d'identité, passeport. <br>
+                        <p>Demande ou renouvellement de papiers officiels: carte d'identité, passeport.
                             Demande de logement ou pour tout autre services: Veuillez cliquez sur le lien ci dessous.
                         </p>
                         <div class="lienDemarche">
@@ -288,8 +356,8 @@
         </div>
 
     </footer>
-    <script src="/js/menu-burger.js"></script>
-    <script src="/js/accueil.js"></script>
+    <script src="/js/menu-burger.js"> </script>
+    <script src="/accueil.js"></script>
 </body>
 
 </html>

@@ -8,6 +8,16 @@ html {
     padding-bottom: 5%;
     padding-top: 0%;
 
+    .BackgroundGrisClair{
+        background-color: $backgroundSection;
+        width: 87%;
+        margin-left: 4%;
+        padding-left: 4%;
+        padding-bottom: 4%;
+    }
+
+    //Début de la section printemps numérique
+
     .EventNumerique {
         background-color: $backgroundSection;
         width: 87%;
@@ -48,6 +58,7 @@ html {
         width: 28%;
         margin-right: 13%;
         font-family: $policeTexte ;
+        line-height: 1.60;
     }
 
     .NouvelleTechnologie{
@@ -56,7 +67,7 @@ html {
     .NouvelleTechnologie img {
         display: flex;
         padding-bottom: 4%;
-        width: 80%;
+        width: 75%;
         margin-left: 1%;
     }
 }
@@ -69,7 +80,18 @@ html {
     font-family: $policeTexte ;
 }
 
+//Fin de la section printemps numérique
+
+//Début de la section Summer Festival
 
 .footerContact{
     margin-bottom: 0;
+}
+
+#SitePrintempsNumerique{
+    display: flex;
+    width: 54%;
+    margin-top: 15%;
+    color: white;
+    text-decoration: none;
 }
