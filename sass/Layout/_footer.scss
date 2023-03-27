@@ -122,6 +122,12 @@ footer{
 .footerContact h2{
 
     width: 100%;
+
+}
+
+ .footerContact .footerTexteContact h2{
+
+    margin-top: 30px;
 }
 .footerContact p{
     font-size:large;
@@ -140,10 +146,11 @@ footer{
 }
 
 .footerMap iframe{
-    height: 300px;
+    height: 200px;
     width: 300px;
     margin-left: 7%;
     margin-right: 5%;
+    padding-bottom: 25px;
 }
 
 
